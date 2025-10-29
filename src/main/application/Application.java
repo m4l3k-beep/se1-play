@@ -17,7 +17,7 @@ public class Application {
      */
     public static void main(String[] args) {
         var module = Application.class.getModule().getName();
-        var greeting = String.format(module==null? "%s, se1play" : "%s, %s (modular)", "Hello", module);
+        var greeting = String.format(module==null? "%s, se1-play" : "%s, %s (modular)", "Hello", module);
         System.out.println(greeting);
 
         Arrays.stream(args)

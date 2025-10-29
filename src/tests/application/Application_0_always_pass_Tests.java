@@ -34,7 +34,7 @@ public class Application_0_always_pass_Tests {
      * First @Test method (always passes).
      */
     @Test
-    @Order(1)
+    @Order(001)
     void test_001_always_pass() {
         int expected = 10;
         int actual = 10;
@@ -45,7 +45,7 @@ public class Application_0_always_pass_Tests {
      * Second @Test method (always passes).
      */
     @Test
-    @Order(2)
+    @Order(002)
     void test_002_always_pass() {
         int expected = 10;
         int actual = 10;
