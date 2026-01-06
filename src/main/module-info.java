@@ -27,5 +27,5 @@ module se1play {
     /*
      * External module required by this module (JUnit-5 module for JUnit testing).
      */
-    // requires org.junit.jupiter.api;
+    requires org.junit.jupiter.api;
 }
